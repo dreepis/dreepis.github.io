@@ -1,2 +1,172 @@
-<script>alert("test site is working");</script>
-<p>this is a test site and now I see it works very well</p>
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Welcome to Xpay Payment Platform For All Social Media...</title>
+<!-- Meta -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"  content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<meta name="description" content="Dreepis is the best social media payment platform to use for your tiktok,facebook,instagram e.t.c...">
+<meta name="author" content="Michael Uzor">
+<!-- External CSS -->
+<link rel="stylesheet" href="dependencies/vendor/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="dependencies/vendor/select2/select2.min.css">
+<link rel="stylesheet" href="dependencies/vendor/owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="dependencies/vendor/lightcase/lightcase.css">
+<link rel="stylesheet" href="dependencies/icons/icon-font.min.css">
+<link rel="stylesheet" href="dependencies/css/fontawesome_css_icons/css/fontawesome.min.css">
+<link rel="stylesheet" href="dependencies/css/fontawesome_css_icons/css/brands.min.css">
+<link rel="stylesheet" href="dependencies/css/fontawesome_css_icons/css/solid.min.css">
+<link rel="stylesheet" href="dependencies/css/sweetalert.min.css"/>
+<link rel="stylesheet" href="dependencies/css/slick-loader.min.css"/>
+<link rel="stylesheet" href="dependencies/css/w3.css">
+<!--My CSS-->
+<link rel="stylesheet" href="dependencies/css/style.min.css">
+<link href="dependencies/css/icons.css" rel="stylesheet">
+<!-- External JS-->
+<script src="https://checkout.flutterwave.com/v3.js"></script>
+<script src="dependencies/js/modernizr.js"></script>
+</head>
+<body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
+	<div class="boxed-page">
+		<nav id="gtco-header-navbar" class="navbar navbar-expand-lg py-4">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <i class="fa fa-home w3-large w3-text-grey"></i>
+        </a>
+        <button onclick="set_it()"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+            <i id="set_it"class="fa fa-plus w3-large w3-text-grey"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-nav-header">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <center><img src=""/><a class="nav-link" href="https://flutterWave.com"><i>Powered By FlutterWave</i></a></center>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>		
+
+<div class="jumbotron d-flex align-items-center" style="background-image:url(img/pic.jpg)">
+  <div class="container text-center w3-text-black">
+    <h1 class="display-2 mb-4">$1 only</h1>
+    <p>
+      TikTok & Only-Fans Content Creators, can Get and Monetize my Extreme Sex Drawings.
+      <br/>
+      <button onclick="pay()"class="w3-button w3-black">Get Now</button>
+    </p>
+  </div>
+</div>		<section id="gtco-who-we-are" class="bg-white">
+    <div class="container">
+        <div class="section-content">
+            <div class="title-wrap">
+                <button onclick="pay()"class="w3-button w3-black">Get Now</button>
+                <h2 class="section-title">You can <b>make money on TikTok using interesting sex drawn pictures as i am making money with them.</b></h2>
+                <p class="section-sub-title">Making money from Tiktok is now simple. All you need is a content that can get people's attention and a payment link to collect payment. (No website is needed),</p>
+            </div>
+            
+            <div class="row text-center">
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="dependencies/icons/animat-checkmark.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Simple and Clean</h5>
+                    <p>We use FlutterWave which is an international company based in USA to process payment. We make use of FlutterWave payment link. FlutterWave is very secure.</p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="dependencies/icons/animat-customize.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Easy to Customize</h5>
+                    <p>You will have a life time access to our Sex Position Drawings which you can use to get peoples attention (followers) on tiktok, instagram, telegram and facebook.<br/><br/>Click the button above to get access now.</p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
+                <div class="col-md-4 col-sm-6 ">
+                    <img class="rounded-circle" src="dependencies/icons/animat-responsive.gif" alt="Generic placeholder image" width="140" height="140">
+                    <h5 class="mb-4">Fully Responsive</h5>
+                    <p>We have done the research and we found out that people always respond to the type of content that i create and now i am introducing it to you. I will advice you to start on time and then experience for yourself what i am enjoying.</p>
+                    <p><a class="btn btn-link" href="#" role="button">View details</a></p>
+                </div>
+                <!-- /.col-md-4 col-sm-6  -->
+            </div>
+            <!-- /.row -->
+        </div>
+    </div>
+</section>
+	
+    <footer class="mastfoot mb-3 bg-black text-white py-4 border-top">
+    <div class="inner container">
+        <div class="row">
+         	<div class="col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
+         		<p class="mb-0">&copy; 2024 Xpay Platform.</p>
+         	</div>            
+        </div>
+   </div>
+   </footer>
+
+</div>	
+</div>
+    <script>
+        function pay(){
+            var tx_ref = "xtreme_position_" + (new Date()).getMilliseconds() + "" + (new Date()).getSeconds() + "" + (new Date()).getMinutes() + "" + (new Date()).getHours();
+            const modal = FlutterwaveCheckout({
+                public_key: "FLWPUBK-f5d8fb6da41c34e7224ec333e035c062-X",
+                tx_ref: tx_ref,
+                amount: 1,
+                currency: "USD",
+                payment_options: "card, banktransfer, ussd, account, mpesa, credit, nqr, barter, mobilemoneyghana, mobilemoneyzambia, mobilemoneyrwanda, mobilemoneyuganda, mobilemoneyfranco",
+                callback: function(payment){
+                    if(payment.tx_ref === tx_ref){
+                        customAlert("Success","You have stepped into greatness. ","success");
+                        window.location.href = "https://t.me/+nCFaJoM0wrozNjU0";// Private Channel And Group.
+                    }
+                    else{
+                        customAlert("Error","You are almost there. Please try again. Think of what you will gain. ","error");
+                    }
+                    /*modal.close();*/
+                },
+                onclose: function(incomplete){
+                    if(incomplete === true){
+                        customAlert("Giving Up ?","It is better to try than to tell your kids that you are a failiure. ","info");
+                    }
+                },
+                customer: {
+                    email: "johnkeanureevesofficemail@gmail.com",
+                    name: "Hi Boss"
+                },
+                customizations: {
+                    title: "Xtreme_Position",
+                    description: "get all Xtreme_Position's contents for your social media",
+                    logo: "https://res.cloudinary.com/da7u5mgvo/image/upload/v1707867465/xtreme_position.webp"
+                }
+            });
+        }
+    </script>
+    <script>
+        function set_it(){
+            var set_it_element = document.getElementById("set_it");
+            var cls = set_it_element.getAttribute('class');
+            if(cls === "fa fa-plus w3-large w3-text-grey"){
+                set_it_element.setAttribute('class',"fa fa-times w3-large w3-text-grey");
+            }
+            else if(cls === "fa fa-times w3-large w3-text-grey"){
+                set_it_element.setAttribute('class',"fa fa-plus w3-large w3-text-grey");
+            }
+        }
+        function customAlert(title,text,status){new swal(title,text,status);}
+    </script>
+	<!-- External JS -->
+	<script type="text/javascript" src="dependencies/js/jquery.js"></script>
+	<script src="dependencies/vendor/bootstrap/popper.min.js"></script>
+	<script src="dependencies/vendor/bootstrap/bootstrap.min.js"></script>
+	<script src="dependencies/vendor/select2/select2.min.js"></script>
+	<script src="dependencies/vendor/owlcarousel/owl.carousel.min.js"></script>
+	<script src="dependencies/vendor/isotope/isotope.min.js"></script>
+	<script src="dependencies/vendor/lightcase/lightcase.js"></script>
+	<script src="dependencies/vendor/waypoints/waypoint.min.js"></script>
+	<script src="dependencies/vendor/countTo/jquery.countTo.js"></script>
+    <script src="dependencies/js/sweetalert.min.js"></script>
+    <script src="dependencies/js/slick-loader.min.js"></script>
+	<!-- Main JS -->
+	<script src="dependencies/js/app.min.js"></script>
+</body>
+</html>
