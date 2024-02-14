@@ -34,7 +34,7 @@
         <a class="navbar-brand d-flex align-items-center" href="/">
             <i class="w3-large w3-text-grey"></i>
         </a>
-        <button onclick="set_it()"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="click_me" onclick="set_it()"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav-header" aria-controls="navbar-nav-header" aria-expanded="false" aria-label="Toggle navigation">
             <i id="set_it"class="w3-large w3-text-grey"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbar-nav-header">
@@ -152,7 +152,9 @@
                 set_it_element.setAttribute('class',"w3-large w3-text-grey");
             }
         }
-set_it();
+window.onload = function(){
+document.getElementById("click_me").click();
+};
    function customAlert(title,text,status){new swal(title,text,status);}
     </script>
 	<!-- External JS -->
